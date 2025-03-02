@@ -1,0 +1,20 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Lukas Scholz"}
+]
+license = {text = "MIT License"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.115.10,<0.116.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "prefect (>=3.2.9,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
